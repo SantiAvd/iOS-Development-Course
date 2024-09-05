@@ -81,8 +81,7 @@ extension MainViewController {
       }
     
    @objc func restoreButtonPressed(_ sender: Any) {
-       users = currentUsers
-       // 🟡 Уехал код вправо
+        users = currentUsers
         myTableView.reloadData()
     }
       
