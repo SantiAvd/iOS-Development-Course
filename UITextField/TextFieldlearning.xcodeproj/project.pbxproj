@@ -18,9 +18,6 @@
 		FA95D4602C2B101700985492 /* AuthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA95D45F2C2B101700985492 /* AuthViewController.swift */; };
 		FA95D4652C2B101900985492 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA95D4642C2B101900985492 /* Assets.xcassets */; };
 		FA95D4682C2B101900985492 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA95D4662C2B101900985492 /* LaunchScreen.storyboard */; };
-		FA95D4732C2B101900985492 /* TextFieldlearningTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA95D4722C2B101900985492 /* TextFieldlearningTests.swift */; };
-		FA95D47D2C2B101900985492 /* TextFieldlearningUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA95D47C2C2B101900985492 /* TextFieldlearningUITests.swift */; };
-		FA95D47F2C2B101900985492 /* TextFieldlearningUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA95D47E2C2B101900985492 /* TextFieldlearningUITestsLaunchTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,10 +52,7 @@
 		FA95D4672C2B101900985492 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FA95D4692C2B101900985492 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FA95D46E2C2B101900985492 /* TextFieldlearningTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TextFieldlearningTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		FA95D4722C2B101900985492 /* TextFieldlearningTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldlearningTests.swift; sourceTree = "<group>"; };
 		FA95D4782C2B101900985492 /* TextFieldlearningUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TextFieldlearningUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		FA95D47C2C2B101900985492 /* TextFieldlearningUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldlearningUITests.swift; sourceTree = "<group>"; };
-		FA95D47E2C2B101900985492 /* TextFieldlearningUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldlearningUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		FAFE91B12C89D4F90077C612 /* Comfortaa-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Comfortaa-SemiBold.ttf"; sourceTree = "<group>"; };
 		FAFE91B22C89D4F90077C612 /* Comfortaa-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Comfortaa-Medium.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -119,8 +113,6 @@
 			isa = PBXGroup;
 			children = (
 				FA95D45A2C2B101700985492 /* TextFieldlearning */,
-				FA95D4712C2B101900985492 /* TextFieldlearningTests */,
-				FA95D47B2C2B101900985492 /* TextFieldlearningUITests */,
 				FA95D4592C2B101700985492 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -150,23 +142,6 @@
 				FA95D4692C2B101900985492 /* Info.plist */,
 			);
 			path = TextFieldlearning;
-			sourceTree = "<group>";
-		};
-		FA95D4712C2B101900985492 /* TextFieldlearningTests */ = {
-			isa = PBXGroup;
-			children = (
-				FA95D4722C2B101900985492 /* TextFieldlearningTests.swift */,
-			);
-			path = TextFieldlearningTests;
-			sourceTree = "<group>";
-		};
-		FA95D47B2C2B101900985492 /* TextFieldlearningUITests */ = {
-			isa = PBXGroup;
-			children = (
-				FA95D47C2C2B101900985492 /* TextFieldlearningUITests.swift */,
-				FA95D47E2C2B101900985492 /* TextFieldlearningUITestsLaunchTests.swift */,
-			);
-			path = TextFieldlearningUITests;
 			sourceTree = "<group>";
 		};
 		FAFE91B02C89D4B60077C612 /* Fonts */ = {
@@ -324,7 +299,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FA95D4732C2B101900985492 /* TextFieldlearningTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -332,8 +306,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FA95D47F2C2B101900985492 /* TextFieldlearningUITestsLaunchTests.swift in Sources */,
-				FA95D47D2C2B101900985492 /* TextFieldlearningUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

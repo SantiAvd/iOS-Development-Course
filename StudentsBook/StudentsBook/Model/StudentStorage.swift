@@ -39,7 +39,4 @@ struct Source {
         .init(name: "Параскева", surName: "Арабеска"),
        ]
     }
-    
-    
-    
 }
